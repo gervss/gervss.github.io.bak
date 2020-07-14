@@ -28,6 +28,8 @@
 
       <link rel="stylesheet" href="css/fullpage.min.css">
 
+      <link rel="stylesheet" href="css/lightgallery.css">
+
 
 
    </head>
@@ -504,10 +506,9 @@
                            </div>
                            
                            <div class="col-lg-10">
-                              <div class="work-gallery">
+                              <div id="lightgallery" class="work-gallery">
                               
-
-
+                         
                                  <div class="work-item web">
                                     <img class="img-fluid" src="images/web/web-inaxus.jpg" alt="">
                                     <div class="hover-links">
@@ -516,10 +517,7 @@
                                           <span><a href="https://www.inaxus.com/" target="_blank">www.inaxus.com</a></span>
                                        </div>
                                     </div>
-                                 </div>
-                                 
-                      
-                     
+                                 </div>                   
                                  <div class="work-item web">
                                     <img class="img-fluid" src="images/web/inbox.png" alt="">
                                     <div class="hover-links">
@@ -568,23 +566,17 @@
 
                                
 
-                                <!-- The Modal -->
-                                 <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01"> 
-                                    <div id="caption"></div>
-                                 </div>
-
-                                 <div class="work-item jersey">
-                                    <img class="img-fluid" src="images/works/jersey-1.jpg" alt="">
+                            
+                                 <div class="work-item jersey" data-src="images/works/jersey-1.jpg">
+                                    <image class="img-fluid " src="images/works/jersey-1.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
-                                          <h3><a href="#">Raptors</a></h3>
-                                          <span>Graphics, Ilustration</span>
+                                          <h3><a href="images/works/jersey-1.jpg">Raptors</a></h3>
+                                          <spasn>Graphics, Ilustration</span>
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-2.jpg">
                                     <img class="img-fluid" src="images/works/jersey-2.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -593,7 +585,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-3.jpg">
                                     <img class="img-fluid" src="images/works/jersey-3.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -602,7 +594,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-4.jpg">
                                     <img class="img-fluid" src="images/works/jersey-4.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -611,7 +603,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-5.jpg">
                                     <img class="img-fluid" src="images/works/jersey-5.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -620,7 +612,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-6.jpg">
                                     <img class="img-fluid" src="images/works/jersey-7.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -629,7 +621,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-7.jpg">
                                     <img class="img-fluid" src="images/works/jersey-8.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -638,7 +630,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-8.jpg">
                                     <img class="img-fluid" src="images/works/jersey-9.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -647,7 +639,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-9.jpg">
                                     <img class="img-fluid" src="images/works/jersey-10.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -656,7 +648,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-10.jpg">
                                     <img class="img-fluid" src="images/works/jersey-11.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -665,7 +657,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-11.jpg">
                                     <img class="img-fluid" src="images/works/jersey-12.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -674,7 +666,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-12.jpg">
                                     <img class="img-fluid" src="images/works/jersey-13.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -683,7 +675,7 @@
                                        </div>
                                     </div>
                                  </div>                                
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-13.jpg">
                                     <img class="img-fluid" src="images/works/jersey-14.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -692,7 +684,7 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="work-item jersey">
+                                 <div class="work-item jersey" data-src="images/works/jersey-14.jpg">
                                     <img class="img-fluid" src="images/works/jersey-15.jpg" alt="">
                                     <div class="hover-links">
                                        <div class="con text-center">
@@ -702,7 +694,7 @@
                                     </div>
                                  </div>
 
-                                 <div class="work-item art">
+                                 <div class="work-item art" data-src="images/vexel/1.jpg">
                                        <img class="img-fluid" src="images/vexel/1.jpg" alt="">
                                        <div class="hover-links">
                                           <div class="con">
@@ -710,9 +702,8 @@
                                              <span>Arts, Ilustration</span>
                                           </div>
                                        </div>
-                                    </div>
-                                 
-                                    <div class="work-item art">
+                                 </div>                                
+                                 <div class="work-item art" data-src="images/vexel/2.jpg">
                                           <img class="img-fluid" src="images/vexel/2.jpg" alt="">
                                           <div class="hover-links">
                                              <div class="con">
@@ -720,9 +711,8 @@
                                                 <span>Arts, Ilustration</span>
                                              </div>
                                           </div>
-                                       </div>
-                                 
-                                       <div class="work-item art">
+                                 </div>                               
+                                 <div class="work-item art" data-src="images/vexel/3.jpg">
                                              <img class="img-fluid" src="images/vexel/3.jpg" alt="">
                                              <div class="hover-links">
                                                 <div class="con">
@@ -730,9 +720,8 @@
                                                    <span>Arts, Ilustration</span>
                                                 </div>
                                              </div>
-                                          </div>
-
-                                          <div class="work-item art">
+                                 </div>
+                                 <div class="work-item art" data-src="images/vexel/4.jpg">
                                                 <img class="img-fluid" src="images/vexel/4.jpg" alt="">
                                                 <div class="hover-links">
                                                    <div class="con">
@@ -740,10 +729,8 @@
                                                       <span>Arts, Ilustration</span>
                                                    </div>
                                                 </div>
-                                             </div>
-
-                                             
-                                          <div class="work-item art">
+                                 </div>                                            
+                                 <div class="work-item art" data-src="images/vexel/5.jpg">
                                              <img class="img-fluid" src="images/vexel/5.jpg" alt="">
                                              <div class="hover-links">
                                                 <div class="con">
@@ -751,10 +738,7 @@
                                                    <span>Arts, Ilustration</span>
                                                 </div>
                                              </div>
-                                          </div>
-                                 
-                          
-                    
+                                 </div>
 
                                  <div class="work-item photography">
                                        <img class="img-fluid" src="images/photograph/7.jpg" alt="">
@@ -764,7 +748,7 @@
                                              <span>UAE, Dubai</span>
                                           </div>
                                        </div>
-                                    </div>
+                                 </div>
                                  <div class="work-item photography">
                                     <img class="img-fluid" src="images/photograph/4.jpg" alt="">
                                     <div class="hover-links">
@@ -781,8 +765,8 @@
                               </div>
                            </div>
 
-                        </div>
                      </div>
+                  </div>
                </section>
                </div>
                <!-- End Work -->
@@ -1096,26 +1080,23 @@
       <script src="js/sticky-kit.min.js"></script>
       <!-- custom js -->
       <script src="js/custom.js"></script>
-
       <script src="js/fullpage.min.js"></script>
+
+      <!-- Light Box -->
+      <script src="js/picturefill.min.js"></script>
+
+
+      <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+
+      <script src="js/jquery.mousewheel.min.js"></script>
+
+      <script src="js/lightgallery.min.js"></script>
+      
+      <!-- lightgallery plugins -->
+
+      <script src="js/lg-thumbnail.min.js"></script>
+      <script src="js/lg-fullscreen.min.js"></script>
+
 
    </body>
 </html>
-
-<script>
-     function myread() {
-		var dots = document.getElementById("dots");
-		var moreText = document.getElementById("more");
-		var btnText = document.getElementById("myBtn");
-  
-	if (dots.style.display === "none") {
-	  dots.style.display = "inline";
-	  btnText.innerHTML = "Read more"; 
-	  moreText.style.display = "none";
-	} else {
-	  dots.style.display = "none";
-	  btnText.innerHTML = "Read less"; 
-	  moreText.style.display = "inline";
-	}
-  }
-</script>

@@ -332,8 +332,8 @@ $(window).load(function() {
     }, 500, function() {
       slide();
       removeLine();
-      moveTextRight();
-      moveTextLeft();
+    //   moveTextRight();
+    //   moveTextLeft();
     });
   }
 
@@ -366,5 +366,8 @@ $(window).load(function() {
     goUp();
     goDown();
   }
+
+  $("#lightgallery").lightGallery(); 
+
 
 });
