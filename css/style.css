@@ -1503,7 +1503,7 @@ body.offcanvas .nav-toggle {
 
 #about .item .meta {
   padding: 4px 8px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   margin: 14px 0;
   border: 1px solid #00ebab;
@@ -2245,5 +2245,13 @@ body.offcanvas .nav-toggle {
 }
 
 
-
+.mod-item {
+  padding: 4px 7px;
+  margin: -4px 0px 10px 14px;
+  font-size: 13px !important;
+  font-weight: 500;
+  border: 1px solid #fff;
+  /* display: inline-block; */
+  color: #fff;
+}
 
