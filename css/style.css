@@ -1671,7 +1671,7 @@ body.offcanvas .nav-toggle {
   list-style: none;
   padding: 28px 0;
   padding-left: 63px;
-  padding-right: 130px;
+  /* padding-right: 130px; */
   border: 1px solid #ffffff0f;
   z-index: 10;
   background: #0d0d0d;
